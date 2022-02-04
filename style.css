@@ -28,6 +28,7 @@ body{
 }
 button:hover{
     cursor: pointer;
+    background-color: aquamarine;
   }
 
 .generate-password button{
