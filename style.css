@@ -1,0 +1,116 @@
+html{
+    font-size: 100%;
+  }
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.password-generator-box{
+    font-size: 20px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: aliceblue; 
+    width: 75%;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 3rem rgba(17, 219, 209, 0.4);
+}
+
+.password-generator-head{
+    font-size: 2rem;
+    text-align: center;
+    color: aquamarine;
+}
+button:hover{
+    cursor: pointer;
+  }
+
+.generate-password button{
+    border: 1px solid aquamarine;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* width: 25rem; */
+}
+.generate-password img{
+    width: 4rem;
+    cursor: pointer;
+  }
+  
+.pass-length{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1rem; 
+    flex-wrap: wrap;
+    gap: 3rem;
+    text-align: center;
+ }
+.pass-length{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1rem; 
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+@media screen and (max-width: 1250px) {
+    html{
+      font-size: 55%;
+    }
+    .password-generator-heading{
+      font-size: 6rem;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    html{
+      font-size: 45%;
+    }
+    .password-generator-heading{
+      font-size: 6rem;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    html{
+      font-size: 30%;
+    }
+    .password-generator-container{
+      width: 85%;
+    }
+    .password-area{
+      width: 100%;
+    }
+    .password-generator-heading{
+      font-size: 6rem;
+      text-align: center;
+    }
+    .password-property-area{
+  
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    html{
+      font-size: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    html{
+      font-size: 30%;
+    }
+  }
+
